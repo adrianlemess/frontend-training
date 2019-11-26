@@ -1,9 +1,9 @@
 {
   "packages": [
-    "packages/*",
-    "packages/bff-graphql/graphql-project",
-    "packages/bff-graphql/bff",
-    "packages/bff-graphql/json-server-apis"
+    "projects/*",
+    "projects/bff-graphql/graphql-project",
+    "projects/bff-graphql/bff",
+    "projects/bff-graphql/json-server-apis"
   ],
   "version": "0.0.0"
 }
