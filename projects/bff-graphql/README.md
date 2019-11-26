@@ -71,15 +71,14 @@ npm run test
 ## Recursos do BFF
 
 - GET /health - Para verificar o status do BFF, nesse endpoint pode ser adicionado chamadas específicas para validar o status.
-- ALL /api/* - Faz um proxy para todas as APIs do backend (JSON-Server)
 - GET /graphql - Faz um proxy pro graphql
-- ALL /custom - Onde ficará endpoints com lógicas específicas e customizadas
+- ALL /api - Onde ficará endpoints com lógicas específicas e customizadas
   - GET /custom/users-modified - endpoint exemplo que retorna uma lista de usuários onde é adicionado um atributo extra (completeName) que concatena o firstName e o lastName
 
 
 ## Conceitos
 
-- BFF (Backend for Frontend) - É um design pattern para construção de APIs específicas para um client, melhorando a experiência do usuário. É uma camada entre as APIs e o client, possibilitando colocar lógicas que não deveriam nem estar no frontend mas também não deveriam estar na API. Por exemplo, algo específico para um dispositivo móvel. O BFF aqui criado tem uma interface para o GraphQL, também pode ser construido endpoints customizados nele e no /api faz um proxy direto pra chamar qualquer API do backend (nessa POC representado pelo JSON-Server).
+- BFF (Backend for Frontend) - É um design pattern para construção de APIs específicas para um client, melhorando a experiência do usuário. É uma camada entre as APIs e o client, possibilitando colocar lógicas que não deveriam nem estar no frontend mas também não deveriam estar na API. Por exemplo, algo específico para um dispositivo móvel. O BFF aqui criado tem uma interface para o GraphQL, também pode ser construido endpoints customizados nele  no /api.
 - GraphQL - Usado como agregador de APIs.
 - JSON-SERVER - Como nessa POC o GraphQL é utilizado para agregação de APIs, utilizeo o JSON-SERVER para simular as APIs, disponibilizando dados de user e company e uma relação entre eles.
 
