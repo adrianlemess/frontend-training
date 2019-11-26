@@ -1,32 +1,44 @@
 {
     "users": [
       {
-        "id": "23",
+        "id": "1",
         "firstName": "Barbara",
         "lastName": "Becker",
         "age": 20,
         "companyId": "1"
       },
       {
-        "id": "40",
+        "id": "2",
         "firstName": "Alex",
         "lastName": "dos Santos",
         "age": 40,
         "companyId": "2"
       },
       {
-        "id": "41",
+        "id": "3",
         "firstName": "Nick",
         "lastName": "Fury",
         "age": 25,
         "companyId": "2"
       },
       {
+        "id": "4",
         "firstName": "Diego",
         "lastName": "Pacheco",
         "age": 34,
-        "id": "9GeT7Zw",
         "companyId": "1"
+      },
+      {
+        "id": "5",
+        "firstName": "Morgan",
+        "lastName": "Freeman",
+        "age": 81
+      },
+      {
+        "id": "5",
+        "firstName": "Clint",
+        "lastName": "Eastwood",
+        "age": 88
       }
     ],
     "companies": [
@@ -39,6 +51,56 @@
         "id": "2",
         "name": "Google",
         "description": "Search things"
+      }
+    ],
+    "tweets": [
+      {
+        "id": "1",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat sit amet dolor et porttitor. Integer venenatis leo ut nullam. ",
+        "userId": "1",
+        "date": "2019-10-25T23:45:35.116Z"
+      },
+      {
+        "id": "2",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo odio, aliquet vitae tincidunt nec, hendrerit ut est. Aliquam cras amet.  ",
+        "userId": "1",
+        "date": "'2017-11-25T23:45:35.116Z'"
+      },
+      {
+        "id": "3",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id malesuada lacus. Duis facilisis justo augue, in lobortis lectus massa nunc. ",
+        "userId": "1",
+        "date": "2019-11-21T23:45:35.116Z"
+      },
+      {
+        "id": "4",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat sit amet dolor et porttitor. Integer venenatis leo ut nullam. ",
+        "userId": "2",
+        "date": "2019-10-25T23:45:35.116Z"
+      },
+      {
+        "id": "5",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo odio, aliquet vitae tincidunt nec, hendrerit ut est. Aliquam cras amet.  ",
+        "userId": "2",
+        "date": "'2017-11-25T23:45:35.116Z'"
+      },
+      {
+        "id": "6",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id malesuada lacus. Duis facilisis justo augue, in lobortis lectus massa nunc. ",
+        "userId": "2",
+        "date": "2019-11-21T23:45:35.116Z"
+      },
+      {
+        "id": "7",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat sit amet dolor et porttitor. Integer venenatis leo ut nullam. ",
+        "userId": "3",
+        "date": "2019-10-25T23:45:35.116Z"
+      },
+      {
+        "id": "8",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo odio, aliquet vitae tincidunt nec, hendrerit ut est. Aliquam cras amet.  ",
+        "userId": "3",
+        "date": "'2019-11-25T23:45:35.116Z'"
       }
     ]
   }
