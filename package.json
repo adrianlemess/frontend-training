@@ -1,0 +1,23 @@
+{
+  "name": "treinamento-frontend",
+  "version": "1.0.0",
+  "description": "training frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianlemess/frontend-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianlemess/frontend-training/issues"
+  },
+  "homepage": "https://github.com/adrianlemess/frontend-training#readme",
+  "dependencies": {
+    "lerna": "^3.19.0"
+  }
+}

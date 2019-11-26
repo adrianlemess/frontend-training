@@ -2,7 +2,7 @@
 
 ## NodeJS
 
-1 - Creating a new project using npm called  exchange_rate
+1 - Create a folder and start a new project using npm called  exchange_rate inside this folder
 2 - Create a NodeJS file to consume the above API.
 https://economia.awesomeapi.com.br/json/list/USD-BRL/1
 
