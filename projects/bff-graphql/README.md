@@ -73,7 +73,7 @@ npm run test
 - GET /health - Para verificar o status do BFF, nesse endpoint pode ser adicionado chamadas específicas para validar o status.
 - GET /graphql - Faz um proxy pro graphql
 - ALL /api - Onde ficará endpoints com lógicas específicas e customizadas
-  - GET /custom/users-modified - endpoint exemplo que retorna uma lista de usuários onde é adicionado um atributo extra (completeName) que concatena o firstName e o lastName
+  - GET /api/users-modified - endpoint exemplo que retorna uma lista de usuários onde é adicionado um atributo extra (completeName) que concatena o firstName e o lastName
 
 
 ## Conceitos
