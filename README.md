@@ -127,3 +127,52 @@ type Tweet {
 
 
 ## Angular
+
+1. Create a new project with ng-cli
+2. Create a module called shared
+3. Create a component called users
+4. Create a component called tweets
+5. Create routes for users and tweets with the related components 
+6. Create a header using bootstrap with links for users and tweets
+7. Create an userService and tweetsService with methods getUsers and getTweets (use the json server) or create the endpoints in the bff if you have time
+8. With results of getUsers and getTweets present in the users and tweets components using bootstrap cards
+9. Create a list component or list-item component in shared and replace the common logic in tweets and users components your shared component
+
+
+### To install and configure bootstrap
+
+- Install dependencies:
+  ```
+    npm install bootstrap jquery popper.js --save
+  ```
+- Update array styles in angular.json
+
+```
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.css",
+  "src/styles.scss"
+],
+```
+
+- Update array scripts in angular.json
+
+```
+"scripts": [
+  "node_modules/jquery/dist/jquery.js",
+  "node_modules/popper.js/dist/umd/popper.js",
+  "node_modules/bootstrap/dist/js/bootstrap.js"
+],
+```
+## Angular Guard
+
+1. Run in 1 terminal:
+   ```
+    npm run apis
+   ```
+2. Run in another terminal
+    ```
+    npm start
+    ```
+3. To login the page see the username inside mocks/db.json and see the user array. The password is not necessary
+4. If we try to access the route /authenticated-area without login, it will work. Fix this using guard. (use the auth.service)
+5. Restrict the /admin area to only users logged with the role admin (db.json) - create another guard for this

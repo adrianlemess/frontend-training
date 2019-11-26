@@ -1,0 +1,8 @@
+
+Type a Name
+<div [formGroup]="form">
+    <input formControlName="search" /> 
+</div>
+
+<h3> User List</h3>
+<p *ngFor="let user of users"> {{ user.name }}</p>

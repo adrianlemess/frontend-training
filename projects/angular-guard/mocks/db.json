@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "adrian",
+      "age": 24,
+      "company": "Ilegra",
+      "role": "admin",
+      "nationality": "Brazilian"
+    },
+    {
+      "id": 1,
+      "username": "tarzan",
+      "age": 28,
+      "role": "user",
+      "company": "Ilegra",
+      "nationality": "Brazilian"
+    },
+    {
+      "id": 2,
+      "username": "pedro",
+      "age": 31,
+      "role": "user",
+      "company": "Google",
+      "nationality": "Canadian"
+    }
+  ],
+  "people": [
+    {
+      "_id": "5d48d702dc5140e56f3e7a1b",
+      "age": 26,
+      "name": "Reeves Harper",
+      "gender": "male",
+      "email": "reevesharper@zensor.com"
+    },
+    {
+      "_id": "5d48d70225d8cbe0483594d5",
+      "age": 38,
+      "name": "Hunt Bailey",
+      "gender": "male",
+      "email": "huntbailey@zensor.com"
+    },
+    {
+      "_id": "5d48d702535c61de8f9350a9",
+      "age": 32,
+      "name": "Julianne Buckner",
+      "gender": "female",
+      "email": "juliannebuckner@zensor.com"
+    },
+    {
+      "_id": "5d48d70297824522012f4634",
+      "age": 38,
+      "name": "Myrna Mcdonald",
+      "gender": "female",
+      "email": "myrnamcdonald@zensor.com"
+    },
+    {
+      "_id": "5d48d702cf0528b56e1aac7f",
+      "age": 24,
+      "name": "Donovan Massey",
+      "gender": "male",
+      "email": "donovanmassey@zensor.com"
+    },
+    {
+      "_id": "5d48d702c18d44591af4e3ef",
+      "age": 39,
+      "name": "Suarez Huber",
+      "gender": "male",
+      "email": "suarezhuber@zensor.com"
+    },
+    {
+      "_id": "5d48d702af9a6ca032789294",
+      "age": 20,
+      "name": "Angeline Morrison",
+      "gender": "female",
+      "email": "angelinemorrison@zensor.com"
+    },
+    {
+      "_id": "5d48d702a709c4e54e3c97fd",
+      "age": 33,
+      "name": "Althea Marsh",
+      "gender": "female",
+      "email": "altheamarsh@zensor.com"
+    },
+    {
+      "_id": "5d48d70250a860dd5b7515d2",
+      "age": 36,
+      "name": "Jerry Moran",
+      "gender": "female",
+      "email": "jerrymoran@zensor.com"
+    },
+    {
+      "_id": "5d48d7026236fc4f32744751",
+      "age": 31,
+      "name": "Sanchez Hoffman",
+      "gender": "male",
+      "email": "sanchezhoffman@zensor.com"
+    },
+    {
+      "_id": "5d48d70285aabd960235ff34",
+      "age": 21,
+      "name": "Gomez Daugherty",
+      "gender": "male",
+      "email": "gomezdaugherty@zensor.com"
+    },
+    {
+      "_id": "5d48d7029c85f229fadf14dd",
+      "age": 27,
+      "name": "Cortez Langley",
+      "gender": "male",
+      "email": "cortezlangley@zensor.com"
+    },
+    {
+      "_id": "5d48d70286af29efdd437bf4",
+      "age": 30,
+      "name": "Collier Blevins",
+      "gender": "male",
+      "email": "collierblevins@zensor.com"
+    },
+    {
+      "_id": "5d48d702afbfcf4bd95f35a6",
+      "age": 23,
+      "name": "Patton Fletcher",
+      "gender": "male",
+      "email": "pattonfletcher@zensor.com"
+    },
+    {
+      "_id": "5d48d7028a1d02b58a8315ef",
+      "age": 28,
+      "name": "Byrd Santiago",
+      "gender": "male",
+      "email": "byrdsantiago@zensor.com"
+    },
+    {
+      "_id": "5d48d70290f35525a315666d",
+      "age": 31,
+      "name": "Wade Ford",
+      "gender": "male",
+      "email": "wadeford@zensor.com"
+    }
+  ]
+}

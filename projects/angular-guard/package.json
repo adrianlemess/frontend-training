@@ -1,0 +1,77 @@
+{
+  "name": "angular-services",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "build:ci": "ng build -c ci ",
+    "test": "cross-env TZ=America/Sao_Paulo jest --no-cache",
+    "test:snapshot": "npm run test -- --coverage -u",
+    "test:watch": "npm run test -- --watch",
+    "test:ci": "npm run test -- -ci --runInBand --coverage",
+    "lint": "ng lint",
+    "e2e": "cypress open",
+    "e2e:ci": "cypress run",
+    "apis": "json-server --watch mocks/db.json"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupJest.ts"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/dist/",
+      "<rootDir>/src/test.ts",
+      "<rootDir>/cypress/"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "<rootDir>/tsconfig.spec.json",
+        "stringifyContentPathRegex": "\\.html$",
+        "astTransformers": [
+          "<rootDir>/node_modules/jest-preset-angular/InlineHtmlStripStylesTransformer"
+        ]
+      }
+    }
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~8.1.2",
+    "@angular/common": "~8.1.2",
+    "@angular/compiler": "~8.1.2",
+    "@angular/core": "~8.1.2",
+    "@angular/forms": "~8.1.2",
+    "@angular/platform-browser": "~8.1.2",
+    "@angular/platform-browser-dynamic": "~8.1.2",
+    "@angular/router": "~8.1.2",
+    "rxjs": "~6.4.0",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.9.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.801.2",
+    "@angular/cli": "~8.1.2",
+    "@angular/compiler-cli": "~8.1.2",
+    "@angular/language-service": "~8.1.2",
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "angular2-template-loader": "^0.6.2",
+    "babel-preset-env": "^1.7.0",
+    "codelyzer": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "cypress": "^3.4.0",
+    "husky": "^3.0.1",
+    "jest": "^24.8.0",
+    "jest-createspyobj": "^1.2.2",
+    "jest-preset-angular": "^7.1.1",
+    "json-server": "^0.15.0",
+    "ts-loader": "^6.0.4",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.15.0",
+    "typescript": "~3.4.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
