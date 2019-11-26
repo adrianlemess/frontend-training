@@ -72,7 +72,7 @@ Inside the bff project you must:
     ]
 }
 
-3. Implement an endpoint to get all the retired people (age > 60)
+3. Implement an endpoint to get all the retired users (age > 60)
 
 ```
 Use the data provider by the JSON-server (DOC: https://github.com/typicode/json-server)
