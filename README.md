@@ -100,15 +100,28 @@ type Tweet {
 
 1. Clone the project https://github.com/johnpapa/angular-tour-of-heroes and npm install inside the project
 2. Inside the project run ng build --prod 
-3. Check the index.html inside the dist folder, was the entire mounted? why? 
+3. Check the dist/index.html was the entire mounted? why? 
 4. Now run the application with ng serve --prod 
 5. Run the audit with default configuration and take a print from the result
 6. Commit your frontend project
 7. Give the ng cli command to add SSR schema in the project 
    ```bash
-        ng add @nguniversal/express-engine --clientProject tour-of-heroes  
+        ng add @nguniversal/express-engine --clientProject angular.io-example
    ```
 8.  Check the changes and what the command did
 9.  Run the project with "npm run build:ssr && npm run serve:ssr"
 10. Run the audit again and compare the results
+11. Now install the compress package
+    ```
+        npm install --save compress
+    ```
+12. Import the compress inside server.ts
+    ```
+        import * as compression from 'compression';
+    ```
+13. Inside the server.ts after app.set add the following line
+    ```
+        app.use(compression())
+    ```
+14. Run step 9 and 10 again
 ## Angular
