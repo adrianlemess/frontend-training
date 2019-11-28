@@ -25,7 +25,7 @@ Last 2 days average: R$ xx,xx
 Rules: 
 
 - Take careful with the decimal number conversion
-- To calculate Day Average use the formula: Day Average = (<high value> + <low value>) / 2
+- To calculate Day Average use the formula: Day Average = (high_value + low_value) / 2
 - To calculate the Last 2 days average use:  (today average + yesterday average) / 2
 
 ## BFF and GraphQL
@@ -72,7 +72,7 @@ Inside the bff project you must:
     ]
 }
 
-3. Implement an endpoint to get all the retired users (age > 60)
+3. Implement an endpoint to get all the retired users (age > 70)
 
 ```
 Use the data provider by the JSON-server (DOC: https://github.com/typicode/json-server)
